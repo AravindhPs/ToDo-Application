@@ -1,0 +1,60 @@
+<!doctype html>
+<html>        
+    <head>
+            <title>Daily Work</title>
+            <link rel="stylesheet" href="D:\Angular\ToDo Application\Style.css"/> 
+            <script type="text/javascript" src="D:\Angular\ToDo Application\js.js"></script> 
+             <style>
+      blink {
+        animation: blinker 5s linear infinite;
+        color: #1c87c9;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       /*.blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }*/
+    </style>         
+    </head>
+    <body >
+       <div class="maindiv">
+           <div class="headingdiv">
+               <h1 style="text-align:center;color:violet">ToDo Application</h1>
+           </div> 
+           <div>
+               <label for="new-task">Add Your Daily Work</label>             
+               <div class="adddailyworkdiv">                  
+                   <input style="width:300px" id="activity" placeholder="Add activity items here ..." type="text"><button style="float:right;margin-right:10%;width:305" onclick="newItem()" class="adddailyworkdivbutton">Add</button>
+               </div>
+           </div>
+           <div>
+               <label for="new-task">ToDo</label>                           
+               <div class="tododiv">
+                   <center>
+                  <blink><b>Click an Item, once you have completed.</b></blink> 
+                   </center>
+                  <ol style="display-type:none" class="todool" id="todool"></ol>
+               </div>
+           </div>
+           <div>
+               <label for="new-task">Completed</label>     
+               <div class="completeddiv">
+                    <center>
+                   <blink><b>Click an Item, add again to do your activity which is not completed.</b></blink> 
+                    </center>                                         
+                  <ol class="completedol" id="completedol"></ol>
+               </div>
+           </div>
+	   </div>          
+    </body>    
+</html>
