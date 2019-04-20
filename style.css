@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	border: 5px solid lightcoral;
 	width: 30%;
-	height: 700px;
+	height: 650px;
 	padding: 10px 10px 10px 10px;
 	padding-left: 20px;
 }
@@ -15,22 +15,22 @@ label[for='new-task']
   border-bottom: 1px solid #333;
 }
 .adddailyworkdiv{
-	border:5px solid lightcyan;
+	border:5px double lightcyan;
 	margin:15px auto 0;
 }
 .tododiv{
-	border:5px solid lightcyan;
+	border:5px double lightcyan;
 	margin:15px auto 0;
 }
 .completeddiv{
-	border:5px solid lightcyan;
+	border:5px double lightcyan;
 	margin:15px auto 0;
 }
 .adddailyworkdivbutton{
 	border: none;
 	font-size:15px;
 	max-width: 50px;
-	margin-left: 5px;
+	margin-left: 1px;
 }
 tododiv{
 	border:5px solid lightcyan;
@@ -40,7 +40,7 @@ tododiv{
 	font-size:25px;
 	font-weight: bold;
 	width:100%;
-	height:150px;
+	height:115px;
 	overflow: auto;
 }
 .completedol{
@@ -48,7 +48,7 @@ tododiv{
 	font-weight: bold;
 	text-decoration: line-through;
 	width:100%;
-	height:150px;
+	height:115px;
 	overflow: auto;
 }
 .newitem{
